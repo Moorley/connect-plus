@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import EmergencyFriendList from './src/screens/EmergencyFriendList';
 
 export default function App() {
   return (
-    <EmergencyFriendList />
+    <View style={styles.container}>
+      <Text>aokimasatoakutagawayamami</Text>
+      <Text>aokimasatoakutagawayamami</Text>
+      <StatusBar style="auto" />
+    </View>
   );
 }
 
