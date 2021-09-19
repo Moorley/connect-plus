@@ -25,10 +25,11 @@ const styles = StyleSheet.create({
   
     userAddContainer:{
         backgroundColor:"#007AFF",
-        width: 350,
-        height: 55,
+        width: "90%",
+        height: "8%",
         alignItems: "center",
         justifyContent: "space-evenly",
+        marginBottom:"10%",  
         borderBottomLeftRadius: 10,
         borderBottomRightRadius: 10,
         borderTopLeftRadius: 10,

@@ -38,15 +38,14 @@ key={index}
 const styles = StyleSheet.create({
   
     userContainer: {
-        height: 400,
+        height: "60%",
         width: "100%",
         backgroundColor: "#fff",
         flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "space-around",
+        alignItems: "flex-start",
+        justifyContent: "space-between",
+        marginBottom:"10%",  
 
-
-    
       },
 
   

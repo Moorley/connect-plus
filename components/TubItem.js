@@ -15,10 +15,9 @@ const styles = StyleSheet.create({
   
     tubContainer:{
         width:"100%",
-        height: 100,
-        borderColor: "#fff",
-        backgroundColor:"black",
-        borderWidth: 2,
+        height: "12%",
+        backgroundColor:"#fff",
+        borderWidth: 1,
         },
     
     
