@@ -8,10 +8,9 @@ import { StyleSheet, Text, View,FlatList, SafeAreaView, Button, Alert } from 're
 export default function App() {
   return (
 
-  <View>
-    </View>
+  <View >
 
-
+  </View >
   );
 }
 
@@ -24,5 +23,3 @@ const styles = StyleSheet.create({
     justifyContent: "space-evenly",
   },
 });
-
-
