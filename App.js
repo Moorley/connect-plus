@@ -1,22 +1,33 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,FlatList, SafeAreaView, Button, Alert } from 'react-native';
+import TitleItem from './components/TitleItem';
+import UserItem from './components/UserItem';
+import UserAddItem from './components/UserAddItem';
+import TubItem from './components/TubItem';
+
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>aokimasatoakutagawayamami</Text>
-      <Text>aokimasatoakutagawayamami</Text>
-      <StatusBar style="auto" />
-    </View>
+
+  <SafeAreaView style={styles.container}>
+    <TitleItem title="私の友達"/>
+    <UserItem />
+    <UserAddItem />
+    <TubItem/>
+  </SafeAreaView >
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "space-evenly",
   },
 });
+
+
