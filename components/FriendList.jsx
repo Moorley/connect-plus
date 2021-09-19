@@ -94,4 +94,4 @@ const styles = StyleSheet.create({
     }
 })
 
-//  これからやります。
+//  これからやります。　ああああ
