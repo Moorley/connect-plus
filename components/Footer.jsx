@@ -18,11 +18,10 @@ export default function Footer() {
 
 const styles = StyleSheet.create({
     footerContainer: {
-        backgroundColor: "blue",
         height: 100,
         width: "100%",
         position: "absolute",
-        top: 700,
+        top: '85%',
     },
 
     footerButton: {

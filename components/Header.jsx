@@ -1,11 +1,11 @@
 import React from "react";
-import { View, StyleSheet, Text  } from "react-native";
+import { View, StyleSheet, Text, } from "react-native";
 
 export default function Header() {
     return (
         <View style={styles.headerContainer}>
             <View style={styles.headerInner}>
-                <Text style={styles.headerText}>誰の緊急れんらくですか</Text>
+                <Text style={styles.headerText}>誰の緊急連絡ですか</Text>
             </View>
         </View>
     )
@@ -14,7 +14,7 @@ export default function Header() {
 const styles = StyleSheet.create({
     headerContainer: {
         width: "100%",
-        height: 150,
+        height: 100,
         justifyContent: "flex-end",
     },
 

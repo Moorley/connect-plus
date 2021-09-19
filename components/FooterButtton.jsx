@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text, TouchableOpacity  } from "react-native";
+import { View, StyleSheet, Text, TouchableOpacity, } from "react-native";
 
 export default function FooterButton(props) {
     const {label} = props;
@@ -11,9 +11,9 @@ export default function FooterButton(props) {
 }
 
 
-FooterButton.propTypes = {
-    label: null,
-};
+// FooterButton.propTypes = {
+//     label: string.isRequired,
+// };
 
 const styles = StyleSheet.create({
     footerButton: {
