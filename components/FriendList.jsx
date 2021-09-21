@@ -35,7 +35,6 @@ const ARRAY = [
         id: "8",
         title: 'メバル'
     },
-
 ]
 
 export default function FriendList(){

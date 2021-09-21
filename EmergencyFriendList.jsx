@@ -20,9 +20,11 @@ const styles = StyleSheet.create({
   },
 
   Header: {
+      flex: 2,
   },
 
   Footer: {
+      flex: 3,
   },
 });
 
