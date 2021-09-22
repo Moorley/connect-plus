@@ -17,12 +17,12 @@ const styles = StyleSheet.create({
 
 
       nameContainer: {
-        height: 50,
+        height: 60,
         width: "100%",
         backgroundColor: "#EEEEEE",
         alignItems: "center",
-        justifyContent: "space-evenly",
-        marginBottom:20 ,  
+        justifyContent: "center",
+        marginBottom:"7%",  
          　     
       },
     

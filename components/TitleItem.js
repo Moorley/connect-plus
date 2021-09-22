@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   TitleContainer:{
     backgroundColor:"#fff",
     width:"100%",
-    height:40,
+    height:"10%",
     alignItems: "center",
         justifyContent: 'center',
     },
