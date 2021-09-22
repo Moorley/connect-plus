@@ -7,7 +7,7 @@ import Header from './components/Header';
 export default function EmergencyFriendList() {
   return (
     <View style={styles.appContainer}>
-      <Header style={styles.Header}/>
+      <Header style={styles.Header} title="誰の緊急連絡ですか？"/>
       <FriendList style={styles.friendList}/>
       <Footer style={styles.Footer}/>
     </View>
