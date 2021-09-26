@@ -18,9 +18,10 @@ export default function FooterButton(props) {
 const styles = StyleSheet.create({
     footerButton: {
         flex: 1,
+        padding: 5,
     },
     Text:{
-        fontSize: 24,
+        fontSize: 20,
         color: "black"
     },
 })
