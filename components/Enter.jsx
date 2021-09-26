@@ -1,4 +1,4 @@
-import React from  'react';
+import React, {useState} from  'react';
 import {
     View, StyleSheet, TextInput, Text, TouchableWithoutFeedback, Keyboard,
 } from 'react-native';
@@ -6,8 +6,8 @@ import BackButton from './BackButton';
 import DecisionButton from './DecisionButtton';
 
 export default function Enter() {
-    const [elationship, onRelationshipText] = React.useState("関係性を入力してください");
-    const [message, onMessageText] = React.useState("メッセージを入力してください");
+    const [elationship, setRelationshipText] = useState("");
+    const [message, setMessageText] = useState("");
     return (
         <TouchableWithoutFeedback
             onPress={() => {
@@ -20,7 +20,8 @@ export default function Enter() {
                     <TextInput
                         style={styles.relationshipInput}
                         value={elationship}
-                        onChangeText={onRelationshipText}
+                        onChangeText={(text) => {setRelationshipText(text);}}
+                        placeholder="関係性を入力してください"
                         multiline
                     />
                 </View>
@@ -29,7 +30,8 @@ export default function Enter() {
                     <TextInput
                         style={styles.messageInput}
                         value={message}
-                        onChangeText={onMessageText}
+                        onChangeText={(text) => {setMessageText(text); }}
+                        placeholder="メッセージを入力してください"
                         multiline
                     />
                 </View>
