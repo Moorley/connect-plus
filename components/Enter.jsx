@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     relationshipContainer: {
         width: "100%",
         paddingHorizontal: 40,
-        marginVertical: 50,
+        marginVertical: 40,
     },
     title: {
         fontSize: 24,
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     },
     messageContainer:{
         width: '100%',
-        paddingHorizontal: 40,
+        paddingHorizontal: 30,
     },
     messageInput: {
         borderWidth: 1,
