@@ -27,4 +27,3 @@ const styles = StyleSheet.create({
 });
 
 //画面遷移実装
-//a
