@@ -35,7 +35,6 @@ const ARRAY = [
         id: "8",
         title: 'メバル'
     },
-
 ]
 
 export default function FriendList(){
@@ -93,3 +92,5 @@ const styles = StyleSheet.create({
         fontSize: 20,
     }
 })
+
+//  これからやります。　ああああ
