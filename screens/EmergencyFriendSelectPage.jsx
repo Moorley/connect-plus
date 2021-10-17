@@ -1,22 +1,20 @@
+//3-2
+//送信先の選択
+//EmergencyFriendSelectPage
+
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View,FlatList, SafeAreaView, Button, Alert } from 'react-native';
-import TitleItem from '../components/TitleItem';
-import UserItem from '../components/UserItem';
-import UserAddItem from '../components/UserAddItem';
-import TubItem from '../components/TubItem';
 
 
-const FriendList =() => {
+
+const EmergencyFriendSelectPage =() => {
 
 
   return (
 
   <View style={styles.container}>
-    <TitleItem title="私の友達"/>
-    <UserItem />
-    <UserAddItem />
-    <TubItem/>
+        <Text>EmergencyFriendSelectPageだよー</Text>
   </View >
   );
 }
@@ -32,6 +30,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default FriendList;
+export default EmergencyFriendSelectPage;
 
-//aoki
