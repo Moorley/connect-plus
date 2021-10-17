@@ -1,3 +1,7 @@
+//3-4
+//メッセージ送信確認画面
+//VerificationPage
+
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, SafeAreaView, Button, Alert } from 'react-native';
@@ -6,7 +10,7 @@ import TubItem from '../components/TubItem';
 import ConfirmationItem from '../components/ConfirmationItem';
 import SelectionItem from '../components/SelectionItem';
 
-const MessageTransmissionConfirmation =() => {
+const VerificationPage =() => {
 
     return (
 
@@ -35,6 +39,6 @@ const styles = StyleSheet.create({
 
 });
 
-export default MessageTransmissionConfirmation
+export default VerificationPage
 
 //M_20210925

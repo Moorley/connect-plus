@@ -1,15 +1,18 @@
+
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View,FlatList, SafeAreaView, Button, Alert } from 'react-native';
-import EmergencyFriendList from './EmergencyFriendList';
-import EnterMessage from './EnterMessage';
+import EmergencyFriendList from './screens/FriendSelectPage';
+import EnterMessage from './screens/MessageInputPage';
+import FriendList from './screens/MyFriendListPage';
+import MessageTransmissionConfirmation from './screens/VerificationPage';
 
 
 
 
 export default function App() {
   return (
-    <EnterMessage/>
+    <MessageTransmissionConfirmation/>
   );
 }
 
