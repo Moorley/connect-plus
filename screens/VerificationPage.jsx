@@ -39,6 +39,6 @@ const styles = StyleSheet.create({
 
 });
 
-export default VerificationPage
+export default VerificationPage;
 
 //M_20210925

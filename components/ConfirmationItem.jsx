@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, SafeAreaView, Button, Alert, } from 'react-native';
-import Confirmation from './Confirmation.json' //dummy
+import Confirmation from '../Dummyjson/Confirmation.json' //dummy
 
 
 const ConfirmationItem = () => {
