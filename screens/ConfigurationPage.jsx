@@ -1,6 +1,6 @@
-//4-1
-//受信したメッセージ一覧
-//MessageListPage
+//5-1
+//設定画面(仮)
+//ConfigurationPage
 
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
@@ -8,13 +8,13 @@ import { StyleSheet, Text, View,FlatList, SafeAreaView, Button, Alert } from 're
 
 
 
-const essageListPage =() => {
+const ConfigurationPage =() => {
 
 
   return (
 
   <View style={styles.container}>
-        <Text>essageListPageだよー</Text>
+        <Text>設定画面(仮)</Text>
   </View >
   );
 }
@@ -30,5 +30,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default essageListPage;
+export default ConfigurationPage;
 

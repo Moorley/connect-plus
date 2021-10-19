@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View,FlatList, SafeAreaView, Button, Alert } from 'react-native';
 import UserName from './UserName';
-import user from './user.json'  //dymmu
+import user from '../Dummyjson/user.json'  //dymmu
 
 const UserItem =() => {
  const items = user.map((users,index) => {
