@@ -4,8 +4,8 @@
 
 import React from 'react' ;
 import { View, StyleSheet, Text } from 'react-native';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/未使用/Header';
+import Footer from '../components/commonComponents/Footer';
 import Enter from '../components/Enter';
 import ScreenTransition_1 from '../components/ScreenTransition_1';
 

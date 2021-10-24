@@ -1,6 +1,7 @@
 import React from "react";
 /*
 現在使用していない
+ReactNavigationのheaderをデザイン修正する方向
 */
 import { View, StyleSheet, Text, } from "react-native";
 import { Header } from "react-native-elements/dist/header/Header";

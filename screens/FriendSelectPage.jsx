@@ -5,17 +5,38 @@
 
 import React from 'react';
 import { View, StyleSheet, } from "react-native";
-import FriendList from '../components/FriendList';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import UserNameList from '../components/UserNameList';
+//import Header from '../components/Header';
 import ScreenTransition_1 from '../components/ScreenTransition_1';
+import Footer from '../components/commonComponents/Footer'
+import user from '../Dummyjson/user.json'  //dymmu
+
+const ARRAY = [
+  {
+    "username": "田中"
+  },
+  {
+    "username": "加藤"
+  },
+  {
+    "username": "佐藤"
+  },
+  {
+    "username": "二郎"
+  },
+  {
+    "username": "user100"
+  },
+  {
+    "username": "user0101"
+  },
+]
 
 const FriendSelectPage =({navigation}) => {
+  //const items = JSON.parse(user);
   return (
     <View style={styles.appContainer}>
-      <Header style={styles.Header} title="誰の緊急連絡ですか？"/>
-      <FriendList/>
-      <Footer style={styles.Footer}/>
+      <UserNameList ListItem = {ARRAY}/>
       <ScreenTransition_1
       onPress={() => navigation.navigate("誰に連絡しますか？")}
       />

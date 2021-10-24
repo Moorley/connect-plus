@@ -1,6 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Alert} from "react-native";
 
+/*
+戻るはreactNavigationの機能を使うため未実装
+*/
+
 export default function BackButton() {
     return(
         <TouchableOpacity style={styles.BackButton}>

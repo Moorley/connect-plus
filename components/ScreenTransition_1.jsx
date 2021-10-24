@@ -1,6 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 
+/*
+未実装ページの画面遷移用
+*/
 
 const ScreenTransition_1 = ({onPress}) => {
     return (

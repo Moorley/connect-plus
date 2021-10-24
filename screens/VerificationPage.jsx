@@ -8,7 +8,10 @@ import { StyleSheet, Text, View, FlatList, SafeAreaView, Button, Alert } from 'r
 import TitleItem from '../components/TitleItem';
 import TubItem from '../components/TubItem';
 import ConfirmationItem from '../components/ConfirmationItem';
+/*
 import SelectionItem from '../components/SelectionItem';
+*/
+import ConfirmButton from '../components/commonComponents/ConfirmButton';
 
 const VerificationPage =() => {
 
@@ -17,7 +20,7 @@ const VerificationPage =() => {
         <SafeAreaView style={styles.container}>
           <TitleItem title="送信内容を確認後「送信」をタップしてください" />
           <ConfirmationItem/>
-          <SelectionItem />
+          <ConfirmButton />
           <TubItem />
         </SafeAreaView >
       );

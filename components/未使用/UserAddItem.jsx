@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View,FlatList, SafeAreaView, Button, Alert } from 'react-native';
+import { StyleSheet, Text, View,FlatList, SafeAreaView,  Alert } from 'react-native';
+import { Button } from 'react-native-elements';
 
 
 const UserAddItem =() => {
@@ -20,7 +21,7 @@ const UserAddItem =() => {
     )
 }
 
-
+/*
 const styles = StyleSheet.create({
   
     userAddContainer:{
@@ -41,7 +42,7 @@ const styles = StyleSheet.create({
     });
 
   
-    
+*/
     
     export default UserAddItem;
 
@@ -51,6 +52,5 @@ const styles = StyleSheet.create({
     // <Text style={styles.userAddtxt}>{props.buttonname}</Text>
 
     // #4169e1
-
 
   

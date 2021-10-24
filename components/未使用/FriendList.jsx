@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 import { View, StyleSheet, Text, FlatList, TouchableOpacity, ScrollView} from "react-native";
 
+/*
+UserNameListにとういつする
+*/
 
 const ARRAY = [
     {

@@ -6,7 +6,8 @@ import { Button } from 'react-native-elements';
 /*
 入力完了次へ進むボタン
 ボタンタイトルをpropsで受け取れるようにする
-画面遷移を適したものにできるようにする
+Onclickをページで指定することで各種処理を実装
+デザインの共通化を図る
 */
 
 const ConfirmButton = (props) => {
@@ -15,7 +16,7 @@ const ConfirmButton = (props) => {
             <View >
                 <Button
                     title={props.ButtonTitle}
-                    onPress={() => Alert.alert("タップされました")}
+                    onPress={props.onPress}
                     color="black"
                 >
                 </Button>
