@@ -5,7 +5,7 @@
 import React from 'react' ;
 import { View, StyleSheet, Text } from 'react-native';
 import Header from '../components/未使用/Header';
-import Footer from '../components/commonComponents/Footer';
+//import Footer from '../components/未使用/Footer';
 import Enter from '../components/Enter';
 import ScreenTransition_1 from '../components/ScreenTransition_1';
 
@@ -17,7 +17,7 @@ const MessageInputPage =({navigation}) =>  {
             <Footer />
             <ScreenTransition_1
              onPress={() => navigation.navigate("送信内容を確認して下さい")}
-      />
+            />
         </View>
     )
 }

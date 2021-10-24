@@ -8,7 +8,7 @@ import { View, StyleSheet, } from "react-native";
 import UserNameList from '../components/UserNameList';
 //import Header from '../components/Header';
 import ScreenTransition_1 from '../components/ScreenTransition_1';
-import Footer from '../components/commonComponents/Footer'
+//import Footer from '../components/未使用/Footer'
 import user from '../Dummyjson/user.json'  //dymmu
 
 const ARRAY = [
