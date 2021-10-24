@@ -1,6 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Alert} from "react-native";
 
+/*
+これを使ってもいいんですが他の作っちゃったので未使用
+*/
+
 export default function DecisionButton(props) {
     const {decisionLabel} = props;
     return(
